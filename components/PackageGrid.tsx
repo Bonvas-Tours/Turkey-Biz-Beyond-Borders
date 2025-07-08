@@ -19,7 +19,7 @@ const PackageCard: React.FC<{
 
         <div>
             <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="text-gray-600 mt-2">{description}</p>
+            <p className="text-gray-700 mt-2">{description}</p>
         </div>
 
         <div className="flex items-center gap-4">
@@ -64,9 +64,9 @@ export default function PackageGrid() {
     ];
 
     const regularFeatures = [
-        "Round-trip economy flights (Accra-Istanbul-Accra)",
-        "5 nights in 3-5 star hotels",
-        "All meals and ground transportation",
+        "Round-trip flights (Accra-Istanbul-Accra)",
+        "6 nights in 3-5 star hotels",
+        "Meals and ground transportation",
         "Factory visits and guided tours",
         "Trade fair access (Zuchex & TTM)",
         "B2B matchmaking sessions",
@@ -77,18 +77,10 @@ export default function PackageGrid() {
 
     return (
         <div className="md:w-[1200px] p-4">
-            <div className="grid lg:grid-cols-2 gap-8">
+            <div className="flex justify-center">
+            
                 <PackageCard
-                    title="Early Bird Package"
-                    description="Secure your spot with our limited-time early bird pricing. Save $89.50 when you book before July 31st, 2025."
-                    price="USD $2,610.50"
-                    originalPrice="USD $2,700.00"
-                    deadline="July 31st, 2025"
-                    isEarlyBird={true}
-                    features={earlyBirdFeatures}
-                />
-                <PackageCard
-                    title="Regular Package"
+                    title="Trip Package"
                     description="Complete business exploration experience with all activities, accommodations, and networking opportunities included."
                     price="USD $2,700.00"
                     features={regularFeatures}

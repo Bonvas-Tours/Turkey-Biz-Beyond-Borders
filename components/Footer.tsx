@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-black text-white py-8 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-xl font-semibold mb-4">Contact us for inquiries or bookings:</h2>
-        <p className="mb-2">Email: info@bonvastours.com</p>
+        <p className="mb-2">Email: admin@bonvastours.com</p>
         <p className="mb-6">Call/WhatsApp: +233 261 671 686/+233 531 090 068</p>
 
         <div className="flex justify-center space-x-4 mb-6">
@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="mb-2">
             All Rights Reserved
           </p>
-          <p>Copyright © 2024 Bonvas Tours</p>
+          <p>Copyright © 2025 Bonvas Tours</p>
         </div>
       </div>
     </footer>

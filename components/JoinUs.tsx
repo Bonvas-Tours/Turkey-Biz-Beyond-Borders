@@ -4,7 +4,7 @@ const JoinUs = () => {
     <section className="2xl:max-container relative flex flex-col pt-20 lg:mb-10 lg:pt-20" id="explore-more">
       <div className="padding-container text-center xl:max-w-[800px] max-container w-full pb-24 flexCenter flex-col gap-5">
         <h2 className="bold-40 lg:bold-54">Join Our Premier Business Exploration Tour</h2>
-        <p className="regular-16 text-gray-30 text-center xl:max-w-[600px]">
+        <p className="regular-16 text-gray-700 text-center xl:max-w-[600px]">
           Journey through Turkey's industrial powerhouses and discover new business opportunities.
           From manufacturing facilities to international trade fairs, this is your gateway to
           expanding into European and Asian markets via Turkey's strategic trade corridors.
@@ -13,15 +13,15 @@ const JoinUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 w-full max-w-4xl">
           <div className="bg-white p-6 rounded-lg border">
             <h3 className="font-bold text-lg mb-2">Limited Group Size</h3>
-            <p className="text-sm text-gray-600">Only 25 participants for personalized experience</p>
+            <p className="text-sm text-gray-700">Only 25 participants for personalized experience</p>
           </div>
           <div className="bg-white p-6 rounded-lg border">
-            <h3 className="font-bold text-lg mb-2">6 Days, 5 Nights</h3>
-            <p className="text-sm text-gray-600">September 9-15, 2025</p>
+            <h3 className="font-bold text-lg mb-2">7 Days, 6 Nights</h3>
+            <p className="text-sm text-gray-700">September 9-15, 2025</p>
           </div>
           <div className="bg-white p-6 rounded-lg border">
             <h3 className="font-bold text-lg mb-2">All-Inclusive</h3>
-            <p className="text-sm text-gray-600">Flights, accommodation, tours, and business access</p>
+            <p className="text-sm text-gray-700">Flights, accommodation, tours, Meals and business access</p>
           </div>
         </div>
 

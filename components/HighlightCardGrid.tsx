@@ -8,7 +8,7 @@ const HighlightCardGrid: React.FC = () => {
         {
             icon: <FaHotel size={40} />,
             title: 'Premium Accommodation',
-            description: '5 nights in 3-5 star hotels including Radisson Blu Istanbul Tuzla and Hilton Bursa.',
+            description: '6 nights in 3-5 star hotels including Radisson Blu Istanbul Tuzla and Hilton Bursa.',
         },
         {
             icon: <FaPlane size={40} />,

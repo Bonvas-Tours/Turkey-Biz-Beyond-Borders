@@ -22,7 +22,7 @@ body {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
   .btn_orange  { 
-    @apply  border-[#D34A26] bg-[#D34A26] px-8 py-5 text-white
+    @apply  border-[#d70000] bg-[#d70000] px-8 py-5 text-white
   }
   .btn_dark { 
     @apply  bg-black px-20 py-4 text-white transition-all hover:bg-black

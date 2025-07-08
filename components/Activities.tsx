@@ -36,7 +36,9 @@ export default function Activities() {
                     <div className="grid md:grid-cols-2 gap-4 text-sm">
                         <div>
                             <h4 className="font-semibold mb-2">Day 1: Departure</h4>
-                            <p>Departure from Accra to Istanbul</p>
+                            <ul>
+                                <li>Departure from Accra to Istanbul</li>
+                            </ul>
                         </div>
                         <div>
                             <h4 className="font-semibold mb-2">Day 2: Arrival</h4>
@@ -44,19 +46,19 @@ export default function Activities() {
                         </div>
                         <div>
                             <h4 className="font-semibold mb-2">Day 3: Bursa</h4>
-                            <p>Textile, construction & furniture factory visits</p>
+                            <p>Site visits to Textile, construction & furniture factory visits and Networking Dinner with Turkish business leaders</p>
                         </div>
                         <div>
                             <h4 className="font-semibold mb-2">Day 4: Kocaeli</h4>
-                            <p>Automotive & agro-machinery facilities</p>
+                            <p>Visit to Kocaeli (Automotive & Agro-Machinery factories), Grand Bazaar & Bosphorus Dinner Cruise</p>
                         </div>
                         <div>
                             <h4 className="font-semibold mb-2">Day 5: Trade Fairs</h4>
-                            <p>Zuchex & TTM trade fairs + B2B meetings</p>
+                            <p>Full-day at Zuchex & TTM trade fairs, B2B meetings and Farewell Dinner</p>
                         </div>
                         <div>
                             <h4 className="font-semibold mb-2">Day 6-7: Departure</h4>
-                            <p>Final visits & return to Accra</p>
+                            <p>Final Trade Fair Visits, Shopping, Logistics briefing and departure</p>
                         </div>
                     </div>
                 </div>

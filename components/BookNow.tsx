@@ -6,7 +6,7 @@ export default function BookNow() {
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">Book Your Spot Now</h2>
                 <p className="regular-20 md:text-xl mb-8 max-w-2xl mx-auto">
-                    Don't Miss Out! Reserve Your Spot Now For A December Filled With Adventure, Relaxation, And Perfect Holiday Vibes!
+                    Don't Miss Out! Reserve Your Spot Now to journey through Turkey's industrial powerhouses and discover new business opportunities
                 </p>
 
                 <div className="flex justify-center">
