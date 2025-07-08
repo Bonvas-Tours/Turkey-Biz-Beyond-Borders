@@ -161,8 +161,8 @@ export default function BookingForm() {
                                     onChange={handleInputChange}
                                 >
                                     <option value="">Select a package</option>
-                                    <option value="Early Bird Package">Early Bird Package (USD $2,610.50)</option>
-                                    <option value="Regular Package">Regular Package (USD $2,700.00)</option>
+                                    <option value="Early Bird Package">Early Bird Package (USD $2,700.00)</option>
+                                    <option value="Regular Package">Regular Package (USD $2,750.00)</option>
                                 </select>
                             </div>
 

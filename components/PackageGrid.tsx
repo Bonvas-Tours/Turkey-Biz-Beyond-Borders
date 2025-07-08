@@ -19,7 +19,7 @@ const PackageCard: React.FC<{
 
         <div>
             <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="text-gray-700 mt-2">{description}</p>
+            <p className="text-gray-600 mt-2">{description}</p>
         </div>
 
         <div className="flex items-center gap-4">
@@ -77,18 +77,26 @@ export default function PackageGrid() {
 
     return (
         <div className="md:w-[1200px] p-4">
-            <div className="flex justify-center">
-            
+            <div className="grid lg:grid-cols-2 gap-8">
                 <PackageCard
-                    title="Trip Package"
-                    description="Complete business exploration experience with all activities, accommodations, and networking opportunities included."
+                    title="Early Bird Package"
+                    description="Secure your spot with our limited-time early bird pricing. Save $89.50 when you book before July 31st, 2025."
                     price="USD $2,700.00"
+                    originalPrice="USD $2,750.00"
+                    deadline="July 31st, 2025"
+                    isEarlyBird={true}
+                    features={earlyBirdFeatures}
+                />
+                <PackageCard
+                    title="Regular Package"
+                    description="Complete business exploration experience with all activities, accommodations, and networking opportunities included."
+                    price="USD $2,750.00"
                     features={regularFeatures}
                 />
             </div>
 
             <div className="mt-8 p-6">
-                <h3 className="font-bold text-xl mb-4 text-left">Target Industries:</h3>
+                <h3 className="font-bold text-lg mb-4 text-left">Target Industries:</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
                     <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#D34A26] rounded-full"></div>

@@ -95,5 +95,6 @@ export const industries = [
     "Kitchen & Homeware",
     "Machinery & Agro-processing",
     "Packaging & Printing",
-    "Electronics & Automotive"
+    "Electronics & Automotive",
+    "Radio/TV"
 ]
