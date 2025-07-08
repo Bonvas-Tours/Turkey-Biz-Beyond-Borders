@@ -32,7 +32,7 @@ const HighlightCardGrid: React.FC = () => {
         },
         {
             icon: <FaBusAlt size={40} />,
-            title: 'Full Transportation',
+            title: 'Transportation (Selected Trip Sights)',
             description: 'All local transfers, airport pickups, intercity movement, and site visits included.',
         },
     ];
