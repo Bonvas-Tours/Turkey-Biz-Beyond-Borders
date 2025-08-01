@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="relative padding-container px-20 md:flexCenter flex items-end gap-20 py-10 md:pb-32 pb-10 md:gap-28 lg:py-20 xl:flex-row h-screen bg-hero-bg-1 bg-no-repeat bg-cover bg-bottom">
+    <section className="relative padding-container px-20 md:flexCenter flex items-end gap-20 pt-20 md:pb-32 pb-10 md:gap-28 lg:py-20 xl:flex-row h-screen bg-hero-bg-1 bg-no-repeat bg-cover bg-bottom">
       <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent flex flex-col justify-end p-6"></div>
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 text-white">
         <h1 className="bold-40 md:bold-64">Turkey Biz Beyond Borders</h1>

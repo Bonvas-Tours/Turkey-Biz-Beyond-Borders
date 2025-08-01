@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: 'https://turkeybiz.bonvastours.com',
     images: [
       {
-        url: 'hero-bg-turkey.jpg',
+        url: 'hero-bg-2.jpg',
         width: 1200,
         height: 630,
         alt: 'Turkey business exploration tour featuring factories, trade fairs, and networking opportunities',
