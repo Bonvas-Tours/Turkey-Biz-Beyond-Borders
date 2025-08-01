@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   title: 'Turkey Biz Beyond Borders 2025 | International Business Exploration Tour',
   description: 'Join Bonvas Tours for an exclusive business exploration tour to Turkey. Network with manufacturers, attend international trade fairs, and discover business opportunities in Istanbul, Bursa, and Kocaeli.',
   keywords: 'Turkey business tour, international trade, manufacturing, textile industry, business networking, trade fairs, Zuchex, TTM, Istanbul, Bursa, Kocaeli, Ghana entrepreneurs',
-  metadataBase: new URL('https://turkeybiz.bonvastours.com'),
+  metadataBase: new URL('https://turkey.bonvastours.com'),
   openGraph: {
     title: 'Turkey Biz Beyond Borders 2025 | International Business Exploration',
     description: 'Expand your business horizons with our exclusive Turkey business tour. Factory visits, trade fairs, and networking opportunities await Ghanaian entrepreneurs.',
-    url: 'https://turkeybiz.bonvastours.com',
+    url: 'https://turkey.bonvastours.com',
     images: [
       {
         url: 'hero-bg-2.jpg',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Turkey Biz Beyond Borders 2025 | Business Exploration Tour',
     description: 'Join Ghanaian entrepreneurs on an exclusive business tour to Turkey. Factory visits, trade fairs, and international networking await!',
-    images: ['hero-bg-turkey.jpg'],
+    images: ['hero-bg-2.jpg'],
   },
 };
 
